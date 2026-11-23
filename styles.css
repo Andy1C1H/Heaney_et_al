@@ -1,0 +1,103 @@
+/*-- scss:defaults --*/
+
+// Palette
+$my-blue:  #99FFFF;
+$my-lilac: #CC99FF;
+$my-pink:  #ffccff;
+$my-dark:  #3b2f4a;   // dark text so the pastel colours stay readable
+
+$body-color:   $my-dark;
+$body-bg:      #fffafe;
+$link-color:   #8a4fd1;
+$primary:      $my-lilac;
+$navbar-bg:    $my-blue;
+$navbar-fg:    $my-dark;
+$navbar-hl:    $my-dark;
+
+/*-- scss:rules --*/
+
+h1, h2, h3 { color: $my-dark; }
+
+// ---------- Checklist ----------
+
+.progress-wrap {
+  position: sticky;
+  top: 60px;
+  z-index: 10;
+  background: $my-pink;
+  border-radius: 12px;
+  padding: 0.6rem 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.progress-bar-outer {
+  background: #fff;
+  border-radius: 8px;
+  height: 12px;
+  overflow: hidden;
+  margin-top: 0.4rem;
+}
+.progress-bar-inner {
+  background: $my-lilac;
+  height: 100%;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+#reset-btn {
+  float: right;
+  background: #fff;
+  border: 1px solid $my-lilac;
+  border-radius: 8px;
+  padding: 0.1rem 0.7rem;
+  cursor: pointer;
+}
+
+.checklist-section {
+  border-radius: 16px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 2rem;
+}
+.checklist-section h2 {
+  margin-top: 0;
+  border-bottom: none;
+}
+.checklist-section.blue  { background: lighten($my-blue, 18%); border-left: 8px solid $my-blue; }
+.checklist-section.lilac { background: lighten($my-lilac, 18%); border-left: 8px solid $my-lilac; }
+.checklist-section.pink  { background: lighten($my-pink, 6%);  border-left: 8px solid $my-pink; }
+
+.check-item {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.check-item input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0.35rem;
+  accent-color: #a566e8;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.item-title {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.item-desc {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+.check-item input:checked ~ div .item-title {
+  text-decoration: line-through;
+  opacity: 0.55;
+}
+/* css styles */

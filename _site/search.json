@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "checklist-2.html",
+    "href": "checklist-2.html",
+    "title": "Choosing a dataset",
+    "section": "",
+    "text": "Tick off each item as you go. Your progress is saved in your browser."
+  },
+  {
+    "objectID": "checklist-2.html#a-section-name-a",
+    "href": "checklist-2.html#a-section-name-a",
+    "title": "Choosing a dataset",
+    "section": "A: Section name A",
+    "text": "A: Section name A\n\nElement A1\nExplanation for A1 goes here.\n\n\nElement A2\nExplanation for A2 goes here.\n\n\nElement A3\nExplanation for A3 goes here.\n\n\nElement A4\nExplanation for A4 goes here."
+  },
+  {
+    "objectID": "checklist-2.html#b-section-name-b",
+    "href": "checklist-2.html#b-section-name-b",
+    "title": "Choosing a dataset",
+    "section": "B: Section name B",
+    "text": "B: Section name B\n\nElement B1\nExplanation for B1 goes here.\n\n\nElement B2\nExplanation for B2 goes here.\n\n\nElement B3\nExplanation for B3 goes here.\n\n\nElement B4\nExplanation for B4 goes here."
+  },
+  {
+    "objectID": "checklist-2.html#c-section-name-c",
+    "href": "checklist-2.html#c-section-name-c",
+    "title": "Choosing a dataset",
+    "section": "C: Section name C",
+    "text": "C: Section name C\n\nElement C1\nExplanation for C1 goes here.\n\n\nElement C2\nExplanation for C2 goes here.\n\n\nElement C3\nExplanation for C3 goes here.\n\n\nElement C4\nExplanation for C4 goes here."
+  },
+  {
+    "objectID": "checklist-2.html#d-section-name-d",
+    "href": "checklist-2.html#d-section-name-d",
+    "title": "Choosing a dataset",
+    "section": "D: Section name D",
+    "text": "D: Section name D\n\nElement D1\nExplanation for D1 goes here.\n\n\nElement D2\nExplanation for D2 goes here.\n\n\nElement D3\nExplanation for D3 goes here.\n\n\nElement D4\nExplanation for D4 goes here."
+  },
+  {
+    "objectID": "checklist-2.html#e-section-name-e",
+    "href": "checklist-2.html#e-section-name-e",
+    "title": "Choosing a dataset",
+    "section": "E: Section name E",
+    "text": "E: Section name E\n\nElement E1\nExplanation for E1 goes here.\n\n\nElement E2\nExplanation for E2 goes here.\n\n\nElement E3\nExplanation for E3 goes here.\n\n\nElement E4\nExplanation for E4 goes here."
+  },
+  {
+    "objectID": "checklist-2.html#references",
+    "href": "checklist-2.html#references",
+    "title": "Choosing a dataset",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This is the home page. Head to Choosing a dataset in the menu for the checklist."
+  },
+  {
+    "objectID": "checklistbackup.html",
+    "href": "checklistbackup.html",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "",
+    "text": "The checklist is based on the translation of clinicians perceptions of women’s health (Heaney et al. 2025) into dataset requirements. The method is outlined in Heaney et al. (2026).\nTick off each item as you go. Your progress is saved in your browser."
+  },
+  {
+    "objectID": "checklistbackup.html#necessities",
+    "href": "checklistbackup.html#necessities",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "Necessities",
+    "text": "Necessities\nContain both male and female patients(if condition being studied affects both)You may wish to compare women's data vs men's data, as they can have different symptoms, treatment options and difference in prevalence of condition\nContains a range of participant agesWomen can have different treatment plans/differential diagnosis based on their age.\n Is it a recent dataset or could recent advancements in the condition being studied limit how old the dataset can beWomen's health has progressed in the last number of years both in treatment options and knowledge of how symptoms present in women and men. Consider how old your dataset can be given recent advancements. This checklist was developed based on opinions of clinicians in 2023, there may be additional timerelated elements to consider.\nWhere was the data gatheredThis checklist is based off European clinicians perspectives, there may be country and government specific elements to consider."
+  },
+  {
+    "objectID": "checklistbackup.html#sex-specific-factors",
+    "href": "checklistbackup.html#sex-specific-factors",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "Sex Specific Factors",
+    "text": "Sex Specific Factors\nAre women specific stages such as menstruation and menopause includedMenstruation and menopause can impact chronic diseases.Changes in menstruation can indicate underlying health conditions. Similarly 'menstuation conditions' such as Endometriosis, PCOS/PMOS can increase the likelihood chronic condtions such as heart disease and diabetes. \nIs pregnancy status knownPregnancy or plans to become pregnant can impact the type of medication women with chronic diseases can use.\nIs history of pregnancy complications knownEvents that happen during pregnancy such as 'preaclamsia' or 'gestational diabeties' can be indicators of a patients health in the future.\nDoes your dataset include transgendered patientsBe aware if there are trans patients in your dataset, e.g. trans men may still need gynacology services.\nAre there conditions that affect more women/men present in the datasetThere are conditions that affect more women then men (and vice versa) this may impact the representation in your datases. Consider what an equitable split may look like"
+  },
+  {
+    "objectID": "checklistbackup.html#clinician-information",
+    "href": "checklistbackup.html#clinician-information",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "Clinician Information",
+    "text": "Clinician Information\nIs the sex of the clinician known?The sex of the clinician may impact the care women recieve.\ns the specialisation of the clinician knowThe specialisation of the clinician may impact the type of treatment the patient has access to"
+  },
+  {
+    "objectID": "checklistbackup.html#patient-specific-factors",
+    "href": "checklistbackup.html#patient-specific-factors",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "Patient Specific Factors",
+    "text": "Patient Specific Factors\nIs there a need to consider comorbiditiesComorbidities are more common in women and can impact treatment plans.\nAre pain scales present/necessaryWomen tend to report lower pain levels in comparison to men. Consider this if painscales are in your data and indeed if they are necessary for your model.\nIs ethnicity knownDifferent ethnicities have different risk factors for various conditions.\nAre cultural factors knownA womans culture may impact their wants/needs in medication and treatment plans, e.g. some cultures are not comfortable stoping periods completely or being on a form of birth control.This limits the options patient has..\nIs the location known(of the patients home)The patients loction impacts their access to services. Location can be a proxcy variable e.g. for socioeconomic status.\nAre there personal patient factors e.g. carer responsibilities, history of abuseCarer responsibilities and abuse can reduce a patients ability to be seen medically and therefor these patients may not be represented in your data. Models aiming to schedule patients appointments should be partularly mindful of this. Social pressures may impact the types of treatment a patient can access.\nAre there treatment plans/medication known.Treatment plans and medication can vary based on sex and gender.\nIs the length of diagnosis knownWomen on average take longer to get a diagnosis then men, be aware of this if you plan on considering diagnostic length. If your data was collected during a set time frame there may be women in your data who were diagnosed after the data collection period, or they may be removed since they didn't have the diagnosis yet."
+  },
+  {
+    "objectID": "checklistbackup.html#domain-knowledge---i.e.-knowledge-of-the-area-being-studied",
+    "href": "checklistbackup.html#domain-knowledge---i.e.-knowledge-of-the-area-being-studied",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "Domain Knowledge - i.e. knowledge of the area being studied",
+    "text": "Domain Knowledge - i.e. knowledge of the area being studied\nIs there known gender or sex differences in the studied condition(s)There are conditions where women and men have different treatment options, different side effects to medication, different symptoms.\n\nIs there additional resources to bridge the data science to medical science gapSome datasets can be difficult to interpret, well documented datasets, domain experts who Work in the area are a great resource\nIs there a lot of background knowledge needed to understand the dataEnsure all columns are understood and how they interact with each other.\nIs there domain experts to call upon who know the dataA 'Domain expert' is anyone who knows the medical intricacys of the researched condition. They can help with unclear results and explain condition in dept for example: doctors, biomedical scientist, clinical nurse specialists"
+  },
+  {
+    "objectID": "checklist.html",
+    "href": "checklist.html",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "",
+    "text": "There are a number of elements that impact women’s health, yet data scientists and model developers are not always aware of these elements when doing research. The following checklist aims to explain dataset elements which impact women’s health and is based on clinicians perceptions of women’s health (Heaney et al. 2025). The method of translation is outlined in Heaney et al. (2026).\nIf you have any feedback on this checklist I would love to hear it Feedback Form\nTick off each item as you go. Your progress is saved in your browser."
+  },
+  {
+    "objectID": "checklist.html#necessities",
+    "href": "checklist.html#necessities",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "Necessities",
+    "text": "Necessities\n\nContain both male and female patients (if condition being studied affects both)\nYou may wish to compare women’s data vs men’s data, as they can have different symptoms, treatment options and difference in prevalence of condition.\n\n\nContains a range of participant ages\nWomen can have different treatment plans/differential diagnosis based on their age.\n\n\nIs it a recent dataset or could recent advancements in the condition being studied limit how old the dataset can be\nWomen’s health has progressed in the last number of years both in treatment options and knowledge of how symptoms present in women and men. Consider how old your dataset can be given recent advancements. This checklist was developed based on opinions of clinicians in 2023, there may be additional time-related elements to consider.\n\n\nWhere was the data gathered\nThis checklist is based off European clinicians perspectives, there may be country and government specific elements to consider."
+  },
+  {
+    "objectID": "checklist.html#sex-specific-factors",
+    "href": "checklist.html#sex-specific-factors",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "Sex Specific Factors",
+    "text": "Sex Specific Factors\n\nAre women specific stages such as menstruation and menopause included?\nMenstruation and menopause can impact chronic diseases. Changes in menstruation can indicate underlying health conditions. Similarly ‘menstuation conditions’ such as Endometriosis, PCOS/PMOS can increase the likelihood chronic conditions such as heart disease and diabetes.\n\n\nIs pregnancy status known?\nPregnancy or plans to become pregnant can impact the type of medication women with chronic diseases can use.\n\n\nIs history of pregnancy complications known?\nEvents that happen during pregnancy such as ‘preaclamsia’ or ‘gestational diabeties’ can be indicators of a patients health in the future.\n\n\nDoes your dataset include transgendered patients?\nBe aware if there are trans patients in your dataset, particularly in the pre-processing stage when you are removing any any rows with inconsistencies. Trans men may still need “women’s health” services and they may be included in these datasets.\n\n\nAre there conditions that affect more women/men present in the dataset?\nThere are conditions that affect more women then men (and vice versa) this may impact the representation in your datases. Consider what an equitable split may look like."
+  },
+  {
+    "objectID": "checklist.html#clinician-information",
+    "href": "checklist.html#clinician-information",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "Clinician Information",
+    "text": "Clinician Information\n\nIs the sex of the clinician known?\nThe sex of the clinician may impact the care women receive. Consider female patients may only feel comfortable with female clinicians.\n\n\nIs the specialisation of the clinician know?\nThe specialisation of the clinician may impact the type of treatment the patient has access to."
+  },
+  {
+    "objectID": "checklist.html#patient-specific-factors",
+    "href": "checklist.html#patient-specific-factors",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "Patient Specific Factors",
+    "text": "Patient Specific Factors\n\nIs there a need to consider comorbidities?\nComorbidities are more common in women. The presence of some comorbidities will impact treatment plans.\n\n\nAre pain scales present/necessary?\nWomen tend to report lower pain levels in comparison to men. Consider this if painscales are in your data and indeed if they are necessary for your model.\n\n\nIs ethnicity known?\nDifferent ethnicities have different risk factors for various conditions.\n\n\nAre cultural factors known?\nA woman’s culture may impact their wants/needs in medication and treatment plans, e.g. some cultures are not comfortable stoping periods completely or being on a form of birth control. This limits the options patient has particularly for period related conditions such as PMOS, Endometriosis, Dysmenorrhea. Similarly women in some cultures may may only be able to see female clinicians.\n\n\nIs the location known (of the patient)?\nThe patients location impacts their access to services. Location can be a proxy variable e.g. for socioeconomic status.\n\n\nAre there personal patient factors e.g. carer responsibilities, history of abuse?\nCarer responsibilities and abuse can reduce a patients ability to be seen medically and therefor these patients may not be represented in your data. Models aiming to schedule patients appointments should be particularly mindful of this. Social pressures may impact the types of treatment a patient can access.\n\n\nAre there treatment plans/medication known?\nTreatment plans and medication can vary based on the sex and gender of the patient. This is particularly relevant if a medication is teratogenic (i.e. could cause harm to a foetus) women in their child bearing years may not be prescribed these medications or the may choose not to be on it while they are family planning.\n\n\nIs the length of diagnosis known?\nWomen on average take longer to get a diagnosis then men, be aware of this if you plan on considering diagnostic length. If your data was collected during a set time frame there may be women in your data who were diagnosed after the data collection period, or they may be removed since they didn’t have a diagnosis yet."
+  },
+  {
+    "objectID": "checklist.html#domain-knowledge---i.e.-knowledge-of-the-area-being-studied",
+    "href": "checklist.html#domain-knowledge---i.e.-knowledge-of-the-area-being-studied",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "Domain Knowledge - i.e. knowledge of the area being studied?",
+    "text": "Domain Knowledge - i.e. knowledge of the area being studied?\n\nIs there known gender or sex differences in the studied condition(s)?\nThere are conditions where women and men have different treatment options, different side effects to medication, different symptoms.\n\n\nIs there additional resources to bridge the data science to medical science gap?\nSome datasets can be difficult to interpret, well documented datasets, domain experts who work in the area are a great resource.\n\n\nIs there a lot of background knowledge needed to understand the data?\nEnsure all columns are understood and how they interact with each other. Particulary how they relate to women.\n\n\nIs there domain experts to call upon who know the data?\nA ‘Domain expert’ is anyone who knows the medical intricacies of the researched condition. They can help with unclear results and explain condition in dept for example: doctors, biomedical scientist, clinical nurse specialists"
+  },
+  {
+    "objectID": "checklist.html#references",
+    "href": "checklist.html#references",
+    "title": "Checklist for Equitable Data Selection for Women’s Healthcare",
+    "section": "References",
+    "text": "References\n\n\nHeaney, Andrea, Emma Murphy, and Eugene Hickey. 2025. “Bias in Context: Clinicians’ Perceptions of Women’s Healthcare.” In Pervasive Computing Technologies for Healthcare, edited by Kondylakis Haridimos and Andreas Triantafyllidis. Springer Nature Switzerland. https://doi.org/https://doi.org/10.1007/978-3-031-85572-6_11.\n\n\nHeaney, Andrea, Emma Murphy, and Eugene Hickey. 2026. “From Clinic to Code: Using Clinician Insights to Develop a Framework for Fair and Representative Datasets in Women’s Health AI.” Artificial Intelligence in Healthcare. AIiH, 100–114. https://doi.org/10.1007/978-3-032-00656-1_8."
+  }
+]

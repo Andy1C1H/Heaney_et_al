@@ -1,0 +1,252 @@
+---
+title: "Checklist for Equitable Data Selection for Women's Healthcare"
+---
+There are a number of elements that impact women's health, yet data scientists and model developers are not always aware of these elements when doing research.
+The following checklist aims to explain dataset elements which impact women's health and is based on clinicians perceptions of women's health [@Heaney2025]. The method of translation is outlined in @Heaney2026.
+
+If you have any feedback on this checklist I would love to hear it [Feedback Form](https://forms.cloud.microsoft/e/DVjGxw2eRD)
+
+Tick off each item as you go. Your progress is saved in your browser.
+
+```{=html}
+<div class="progress-wrap">
+  <span id="progress-text">0 / 23 complete</span>
+  <button id="reset-btn" type="button">Reset</button>
+  <div class="progress-bar-outer"><div class="progress-bar-inner" id="progress-bar"></div></div>
+</div>
+```
+
+<!--
+  HOW TO EDIT
+  - Section name: change the "## ..." line.
+  - Big heading of an item: the text inside [ ]{.item-title}
+  - Explanation: the normal text underneath. You can use markdown here,
+    including citations like [@Heaney2025] (key must match ref_web.bib exactly).
+  - Keep each item wrapped in  ::: {.check-item}  ...  :::
+  - Section colour: .blue, .lilac or .pink on the section's opening line.
+  - The checkboxes are added automatically by the script at the bottom.
+-->
+
+::: {.checklist-section .lilac}
+## Necessities
+
+::: {.check-item}
+[Contain both male and female patients (if condition being studied affects both)]{.item-title}
+
+You may wish to compare women's data vs men's data, as they can have different symptoms, treatment options and difference in prevalence of condition.
+:::
+
+::: {.check-item}
+[Contains a range of participant ages]{.item-title}
+
+Women can have different treatment plans/differential diagnosis based on their age.
+:::
+
+::: {.check-item}
+[Is it a recent dataset or could recent advancements in the condition being studied limit how old the dataset can be]{.item-title}
+
+Women's health has progressed in the last number of years both in treatment options and knowledge of how symptoms present in women and men. Consider how old your dataset can be given recent advancements. This checklist was developed based on opinions of clinicians in 2023, there may be additional time-related elements to consider.
+:::
+
+::: {.check-item}
+[Where was the data gathered]{.item-title}
+
+This checklist is based off European clinicians perspectives, there may be country and government specific elements to consider.
+:::
+:::
+
+::: {.checklist-section .lilac}
+## Sex Specific Factors
+
+::: {.check-item}
+[Are women specific stages such as menstruation and menopause included?]{.item-title}
+
+Menstruation and menopause can impact chronic diseases. Changes in menstruation can indicate underlying health conditions. Similarly 'menstuation conditions' such as Endometriosis, PCOS/PMOS can increase the likelihood chronic conditions such as heart disease and diabetes.
+:::
+
+::: {.check-item}
+[Is pregnancy status known?]{.item-title}
+
+Pregnancy or plans to become pregnant can impact the type of medication women with chronic diseases can use.
+:::
+
+::: {.check-item}
+[Is history of pregnancy complications known?]{.item-title}
+
+Events that happen during pregnancy such as 'preaclamsia' or 'gestational diabeties' can be indicators of a patients health in the future.
+:::
+
+::: {.check-item}
+[Does your dataset include transgendered patients?]{.item-title}
+
+Be aware if there are trans patients in your dataset, particularly in the pre-processing stage when you are removing any any rows with inconsistencies.  Trans men may still need "women's health" services and they may be included in these datasets.
+:::
+
+::: {.check-item}
+[Are there conditions that affect more women/men present in the dataset?]{.item-title}
+
+There are conditions that affect more women then men (and vice versa) this may impact the representation in your datases. Consider what an equitable split may look like.
+:::
+:::
+
+::: {.checklist-section .lilac}
+## Clinician Information
+
+::: {.check-item}
+[Is the sex of the clinician known?]{.item-title}
+
+The sex of the clinician may impact the care women receive. Consider female patients may only feel comfortable with female clinicians.
+:::
+
+::: {.check-item}
+[Is the specialisation of the clinician know?]{.item-title}
+
+The specialisation of the clinician may impact the type of treatment the patient has access to.
+:::
+:::
+
+::: {.checklist-section .lilac}
+## Patient Specific Factors
+
+::: {.check-item}
+[Is there a need to consider comorbidities?]{.item-title}
+
+Comorbidities are more common in women. The presence of some comorbidities will impact treatment plans.
+:::
+
+::: {.check-item}
+[Are pain scales present/necessary?]{.item-title}
+
+Women tend to report lower pain levels in comparison to men. Consider this if painscales are in your data and indeed if they are necessary for your model.
+:::
+
+::: {.check-item}
+[Is ethnicity known?]{.item-title}
+
+Different ethnicities have different risk factors for various conditions.
+:::
+
+::: {.check-item}
+[Are cultural factors known?]{.item-title}
+
+A woman's culture may impact their wants/needs in medication and treatment plans, e.g. some cultures are not comfortable stoping periods completely or being on a form of birth control. This limits the options patient has particularly for period related conditions such as PMOS, Endometriosis, Dysmenorrhea. Similarly women in some cultures may may only be able to see female clinicians.
+:::
+
+::: {.check-item}
+[Is the location known (of the patient)?]{.item-title}
+
+The patients location impacts their access to services. Location can be a proxy variable e.g. for socioeconomic status.
+:::
+
+::: {.check-item}
+[Are there personal patient factors e.g. carer responsibilities, history of abuse?]{.item-title}
+
+Carer responsibilities and abuse can reduce a patients ability to be seen medically and therefor these patients may not be represented in your data. Models aiming to schedule patients appointments should be particularly mindful of this. Social pressures may impact the types of treatment a patient can access.
+:::
+
+::: {.check-item}
+[Are there treatment plans/medication known?]{.item-title}
+
+Treatment plans and medication can vary based on the sex and gender of the patient. This is particularly relevant if a medication is teratogenic (i.e. could cause harm to a foetus) women in their child bearing years may not be prescribed these medications or the may choose not to be on it while they are family planning.  
+:::
+
+::: {.check-item}
+[Is the length of diagnosis known?]{.item-title}
+
+Women on average take longer to get a diagnosis then men, be aware of this if you plan on considering diagnostic length. If your data was collected during a set time frame there may be women in your data who were diagnosed after the data collection period, or they may be removed since they didn't have a diagnosis yet.
+:::
+:::
+
+::: {.checklist-section .lilac}
+## Domain Knowledge - i.e. knowledge of the area being studied?
+
+::: {.check-item}
+[Is there known gender or sex differences in the studied condition(s)?]{.item-title}
+
+There are conditions where women and men have different treatment options, different side effects to medication, different symptoms.
+:::
+
+::: {.check-item}
+[Is there additional resources to bridge the data science to medical science gap?]{.item-title}
+
+Some datasets can be difficult to interpret, well documented datasets, domain experts who work in the area are a great resource.
+:::
+
+::: {.check-item}
+[Is there a lot of background knowledge needed to understand the data?]{.item-title}
+
+Ensure all columns are understood and how they interact with each other. Particulary how they relate to women.
+:::
+
+::: {.check-item}
+[Is there domain experts to call upon who know the data?]{.item-title}
+
+A 'Domain expert' is anyone who knows the medical intricacies of the researched condition. They can help with unclear results and explain condition in dept for example: doctors, biomedical scientist, clinical nurse specialists
+:::
+:::
+
+## References
+
+::: {#refs}
+:::
+
+```{=html}
+<script>
+(function () {
+  var items = document.querySelectorAll('.check-item');
+  var bar = document.getElementById('progress-bar');
+  var text = document.getElementById('progress-text');
+  var KEY = 'dataset-checklist-v3';
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; }
+  }
+  function save(state) {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+
+  // Add a checkbox to every item and wrap the existing content
+  var boxes = [];
+  items.forEach(function (item) {
+    var body = document.createElement('div');
+    body.className = 'item-body';
+    while (item.firstChild) body.appendChild(item.firstChild);
+
+    var box = document.createElement('input');
+    box.type = 'checkbox';
+    box.setAttribute('aria-label', 'Mark as done');
+
+    item.appendChild(box);
+    item.appendChild(body);
+    boxes.push(box);
+
+    // Clicking anywhere on the item toggles it (but not links, e.g. citations)
+    item.addEventListener('click', function (e) {
+      if (e.target.closest('a')) return;
+      if (e.target !== box) { box.checked = !box.checked; }
+      update();
+    });
+  });
+
+  function update() {
+    var done = 0, state = {};
+    boxes.forEach(function (b, i) {
+      if (b.checked) done++;
+      state[i] = b.checked;
+    });
+    save(state);
+    bar.style.width = (done / boxes.length * 100) + '%';
+    text.textContent = done + ' / ' + boxes.length + ' complete';
+  }
+
+  var saved = load();
+  boxes.forEach(function (b, i) { b.checked = !!saved[i]; });
+
+  document.getElementById('reset-btn').addEventListener('click', function () {
+    boxes.forEach(function (b) { b.checked = false; });
+    update();
+  });
+  update();
+})();
+</script>
+```

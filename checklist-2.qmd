@@ -1,0 +1,229 @@
+---
+title: "Choosing a dataset"
+---
+
+Tick off each item as you go. Your progress is saved in your browser.
+
+```{=html}
+<div class="progress-wrap">
+  <span id="progress-text">0 / 20 complete</span>
+  <button id="reset-btn" type="button">Reset</button>
+  <div class="progress-bar-outer"><div class="progress-bar-inner" id="progress-bar"></div></div>
+</div>
+```
+
+<!--
+  HOW TO EDIT
+  - Section name: change the "## A: ..." line.
+  - Big heading of an item: the text inside [ ]{.item-title}
+  - Explanation: the normal text underneath. You can use markdown here,
+    including citations like [@Heaney2025] (key must match references file exactly).
+  - Keep each item wrapped in  ::: {.check-item}  ...  :::
+  - The checkboxes are added automatically by the script at the bottom.
+-->
+
+::: {.checklist-section .blue}
+## A: Section name A
+
+::: {.check-item}
+[Element A1]{.item-title}
+
+Explanation for A1 goes here.
+:::
+
+::: {.check-item}
+[Element A2]{.item-title}
+
+Explanation for A2 goes here.
+:::
+
+::: {.check-item}
+[Element A3]{.item-title}
+
+Explanation for A3 goes here.
+:::
+
+::: {.check-item}
+[Element A4]{.item-title}
+
+Explanation for A4 goes here.
+:::
+:::
+
+::: {.checklist-section .lilac}
+## B: Section name B
+
+::: {.check-item}
+[Element B1]{.item-title}
+
+Explanation for B1 goes here.
+:::
+
+::: {.check-item}
+[Element B2]{.item-title}
+
+Explanation for B2 goes here.
+:::
+
+::: {.check-item}
+[Element B3]{.item-title}
+
+Explanation for B3 goes here.
+:::
+
+::: {.check-item}
+[Element B4]{.item-title}
+
+Explanation for B4 goes here.
+:::
+:::
+
+::: {.checklist-section .pink}
+## C: Section name C
+
+::: {.check-item}
+[Element C1]{.item-title}
+
+Explanation for C1 goes here.
+:::
+
+::: {.check-item}
+[Element C2]{.item-title}
+
+Explanation for C2 goes here.
+:::
+
+::: {.check-item}
+[Element C3]{.item-title}
+
+Explanation for C3 goes here.
+:::
+
+::: {.check-item}
+[Element C4]{.item-title}
+
+Explanation for C4 goes here.
+:::
+:::
+
+::: {.checklist-section .blue}
+## D: Section name D
+
+::: {.check-item}
+[Element D1]{.item-title}
+
+Explanation for D1 goes here.
+:::
+
+::: {.check-item}
+[Element D2]{.item-title}
+
+Explanation for D2 goes here.
+:::
+
+::: {.check-item}
+[Element D3]{.item-title}
+
+Explanation for D3 goes here.
+:::
+
+::: {.check-item}
+[Element D4]{.item-title}
+
+Explanation for D4 goes here.
+:::
+:::
+
+::: {.checklist-section .lilac}
+## E: Section name E
+
+::: {.check-item}
+[Element E1]{.item-title}
+
+Explanation for E1 goes here.
+:::
+
+::: {.check-item}
+[Element E2]{.item-title}
+
+Explanation for E2 goes here.
+:::
+
+::: {.check-item}
+[Element E3]{.item-title}
+
+Explanation for E3 goes here.
+:::
+
+::: {.check-item}
+[Element E4]{.item-title}
+
+Explanation for E4 goes here.
+:::
+:::
+
+## References
+
+::: {#refs}
+:::
+
+```{=html}
+<script>
+(function () {
+  var items = document.querySelectorAll('.check-item');
+  var bar = document.getElementById('progress-bar');
+  var text = document.getElementById('progress-text');
+  var KEY = 'dataset-checklist-v2';
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; }
+  }
+  function save(state) {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+
+  // Add a checkbox to every item and wrap the existing content
+  var boxes = [];
+  items.forEach(function (item) {
+    var body = document.createElement('div');
+    body.className = 'item-body';
+    while (item.firstChild) body.appendChild(item.firstChild);
+
+    var box = document.createElement('input');
+    box.type = 'checkbox';
+    box.setAttribute('aria-label', 'Mark as done');
+
+    item.appendChild(box);
+    item.appendChild(body);
+    boxes.push(box);
+
+    // Clicking anywhere on the item toggles it (but not links, e.g. citations)
+    item.addEventListener('click', function (e) {
+      if (e.target.closest('a')) return;
+      if (e.target !== box) { box.checked = !box.checked; }
+      update();
+    });
+  });
+
+  function update() {
+    var done = 0, state = {};
+    boxes.forEach(function (b, i) {
+      if (b.checked) done++;
+      state[i] = b.checked;
+    });
+    save(state);
+    bar.style.width = (done / boxes.length * 100) + '%';
+    text.textContent = done + ' / ' + boxes.length + ' complete';
+  }
+
+  var saved = load();
+  boxes.forEach(function (b, i) { b.checked = !!saved[i]; });
+
+  document.getElementById('reset-btn').addEventListener('click', function () {
+    boxes.forEach(function (b) { b.checked = false; });
+    update();
+  });
+  update();
+})();
+</script>
+```
