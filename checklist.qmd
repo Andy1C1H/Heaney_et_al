@@ -61,31 +61,31 @@ This checklist is based off European clinicians perspectives, there may be count
 ::: {.check-item}
 [Are women specific stages such as menstruation and menopause included?]{.item-title}
 
-Menstruation and menopause can impact chronic diseases. Changes in menstruation can indicate underlying health conditions. Similarly 'menstuation conditions' such as Endometriosis, PCOS/PMOS can increase the likelihood chronic conditions such as heart disease and diabetes.
+Menstruation and menopause can impact chronic diseases. Changes in menstruation can indicate underlying health conditions. Similarly 'menstuation conditions' such as Endometriosis, PCOS/PMOS can increase the likelihood chronic conditions such as heart disease and diabetes [@Naeem2025, Kvaskoff2015]. However many clinical trials, cohort studies and animal model work with non-reproductive aims rarely include menstrual information [@RosenVollmar2025]
 :::
 
 ::: {.check-item}
 [Is pregnancy status known?]{.item-title}
 
-Pregnancy or plans to become pregnant can impact the type of medication women with chronic diseases can use.
+Pregnancy can trigger autoimmune diseases [@Muller2001], worsen/improve some conditions [@Merz2022]. Pregnancy can impact medication options [@Wang2024].
 :::
 
 ::: {.check-item}
 [Is history of pregnancy complications known?]{.item-title}
 
-Events that happen during pregnancy such as 'preaclamsia' or 'gestational diabeties' can be indicators of a patients health in the future.
+Events that happen during pregnancy such as 'preaclamsia' or 'gestational diabeties' can be indicators of a patients health in the future [@Rajendran2023].
 :::
 
 ::: {.check-item}
 [Does your dataset include transgendered patients?]{.item-title}
 
-Be aware if there are trans patients in your dataset, particularly in the pre-processing stage when you are removing any any rows with inconsistencies.  Trans men may still need "women's health" services and they may be included in these datasets.
+Be aware if there are trans patients in your dataset, particularly in the pre-processing stage when you are removing any any rows with inconsistencies.  Trans men may still need "women's health" services and they may be included in these datasets [@Sbragia2020].
 :::
 
 ::: {.check-item}
 [Are there conditions that affect more women/men present in the dataset?]{.item-title}
 
-There are conditions that affect more women then men (and vice versa) this may impact the representation in your datases. Consider what an equitable split may look like.
+There are conditions that affect more women then men (and vice versa) this may impact the representation in your datasets [@Ortona2016, @Johnston2020, Vetvik2021]. Consider what an equitable split may look like.
 :::
 :::
 
@@ -95,13 +95,13 @@ There are conditions that affect more women then men (and vice versa) this may i
 ::: {.check-item}
 [Is the sex of the clinician known?]{.item-title}
 
-The sex of the clinician may impact the care women receive. Consider female patients may only feel comfortable with female clinicians.
+The sex of the clinician may impact the care women receive [@Caldon2007, @Jerath2026, @McKinlay2007] . Consider female patients may only feel comfortable with female clinicians.
 :::
 
 ::: {.check-item}
 [Is the specialisation of the clinician know?]{.item-title}
 
-The specialisation of the clinician may impact the type of treatment the patient has access to.
+The specialisation of the clinician may impact the type of treatment the patient has access to [@Florentinus2009, @Horne2001].
 :::
 :::
 
@@ -111,25 +111,26 @@ The specialisation of the clinician may impact the type of treatment the patient
 ::: {.check-item}
 [Is there a need to consider comorbidities?]{.item-title}
 
-Comorbidities are more common in women. The presence of some comorbidities will impact treatment plans.
+Some comorbidities are more common in women.[@Minen2016, Pahwa2023] The presence of some comorbidities will impact treatment plans.
 :::
 
 ::: {.check-item}
 [Are pain scales present/necessary?]{.item-title}
 
-Women tend to report lower pain levels in comparison to men. Consider this if painscales are in your data and indeed if they are necessary for your model.
+Women experience pain differently to men [@Sorge2017, @Osborne2022]. Clinicians responding to a clinical scenario of a patient in pain, rated female patients as having a less intense pain (lower pain score) than a male patient with the same description of pain [@Guzikevits2024].
+Consider this if pain scales are in your data and indeed if they are necessary for your model.
 :::
 
 ::: {.check-item}
 [Is ethnicity known?]{.item-title}
 
-Different ethnicities have different risk factors for various conditions.
+Many patients face ethnic disparities when accessing care [@Wheeler2017].
 :::
 
 ::: {.check-item}
 [Are cultural factors known?]{.item-title}
 
-A woman's culture may impact their wants/needs in medication and treatment plans, e.g. some cultures are not comfortable stoping periods completely or being on a form of birth control. This limits the options patient has particularly for period related conditions such as PMOS, Endometriosis, Dysmenorrhea. Similarly women in some cultures may may only be able to see female clinicians.
+A woman's culture may impact their wants/needs in medication and treatment plans, e.g. some cultures are not comfortable stopping periods completely or being on a form of birth control or may not talk about menstruation [@Hennegan2019] Similarly women in some cultures may may only be able to see female clinicians [@Opara2024]
 :::
 
 ::: {.check-item}
@@ -141,19 +142,19 @@ The patients location impacts their access to services. Location can be a proxy 
 ::: {.check-item}
 [Are there personal patient factors e.g. carer responsibilities, history of abuse?]{.item-title}
 
-Carer responsibilities and abuse can reduce a patients ability to be seen medically and therefor these patients may not be represented in your data. Models aiming to schedule patients appointments should be particularly mindful of this. Social pressures may impact the types of treatment a patient can access.
+Carer responsibilities [@Arksey2005] and abuse [@Papas2023] can reduce a patients ability to be seen medically and therefor these patients may not be represented in your data.  
 :::
 
 ::: {.check-item}
 [Are there treatment plans/medication known?]{.item-title}
 
-Treatment plans and medication can vary based on the sex and gender of the patient. This is particularly relevant if a medication is teratogenic (i.e. could cause harm to a foetus) women in their child bearing years may not be prescribed these medications or the may choose not to be on it while they are family planning.  
+Treatment plans and medication can vary based on the sex and gender of the patient. Women are less likely to be prescribed e.g. statins [@Virani2015] and pain medication [@Samulowitz2018]. Teratogenic (i.e. could cause harm to a foetus) prohibited in pregnancy [@Wang2024] and some teratogenic only available with a Pregnancy Prevention Programme [@NHSSouthEastLondon2025]
 :::
 
 ::: {.check-item}
 [Is the length of diagnosis known?]{.item-title}
 
-Women on average take longer to get a diagnosis then men, be aware of this if you plan on considering diagnostic length. If your data was collected during a set time frame there may be women in your data who were diagnosed after the data collection period, or they may be removed since they didn't have a diagnosis yet.
+Women on average take longer to get a diagnosis then men [@Sun2023], be aware of this if you plan on considering diagnostic length. If your data was collected during a set time frame there may be women in your data who were diagnosed after the data collection period, or they may be removed since they didn't have a diagnosis yet.
 :::
 :::
 
@@ -184,6 +185,9 @@ Ensure all columns are understood and how they interact with each other. Particu
 A 'Domain expert' is anyone who knows the medical intricacies of the researched condition. They can help with unclear results and explain condition in dept for example: doctors, biomedical scientist, clinical nurse specialists
 :::
 :::
+# Supporting Literature for this Checklist
+
+
 
 ## References
 
