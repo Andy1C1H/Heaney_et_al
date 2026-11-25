@@ -185,9 +185,6 @@ Ensure all columns are understood and how they interact with each other. Particu
 A 'Domain expert' is anyone who knows the medical intricacies of the researched condition. They can help with unclear results and explain condition in dept for example: doctors, biomedical scientist, clinical nurse specialists
 :::
 :::
-# Supporting Literature for this Checklist
-
-
 
 ## References
 
