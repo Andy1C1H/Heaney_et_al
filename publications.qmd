@@ -1,7 +1,8 @@
 ---
 title: "Publications"
 bibliography: ref_web.bib
-nocite: @Heaney2025a, @Heaney2025b,  @Heaney2026a, @Heaney2026b, @Heaney2026c, @Heaney2026d, @Heaney2026e, @Heaney2026f
+nocite: |
+  @Heaney2025a, @Heaney2025b,  @Heaney2026a,   @Heaney2026b, @Heaney2026c, @Heaney2026d,    @Heaney2026e, @Heaney2026f
 ---
 
 ```         

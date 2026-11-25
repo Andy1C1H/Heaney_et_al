@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -137,10 +156,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<pre><code>::: {#refs}
+:::</code></pre>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Heaney2026b" class="csl-entry" role="listitem">
+Heaney, Andrea, and Elizabeth Darnell. 2026a. <span>“Letter from the Editors.”</span> <em>Women+ Early Career Research Symposium</em>. https://doi.org/<a href="https://doi.org/10.21427/169w-qe98">https://doi.org/10.21427/169w-qe98</a>.
+</div>
+<div id="ref-Heaney2026c" class="csl-entry" role="listitem">
+Heaney, Andrea, and Elizabeth Darnell. 2026b. <span>“Women+ Early Career Research Symposium Proceedings.”</span> In <em>Women+ Early Career Research Symposium Proceedings</em>, edited by Andrea Heaney and Elizabeth Darnell. Arrow. <a href="https://arrow.tudublin.ie/womenplus_ecr/2026/">https://arrow.tudublin.ie/womenplus_ecr/2026/</a>.
+</div>
+<div id="ref-Heaney2025b" class="csl-entry" role="listitem">
+Heaney, Andrea;, Eugene Hickey, and Emma Murphy. 2025. <span>“Pathology’s Place in Understanding the Bias and Inequalities in Women’s Healthcare.”</span> <em>SAML-25 Workshop on Statistical and Machine Learning</em>, ahead of print. https://doi.org/<a href="https://doi.org/10.21427/7emd-0p57">https://doi.org/10.21427/7emd-0p57</a>.
+</div>
+<div id="ref-Heaney2026e" class="csl-entry" role="listitem">
+Heaney, Andrea, Eugene Hickey, Emma Murphy, and Esther Purcell. 2026a. <span>“Defining Essential Clinical Information for Pathology Request Forms, a Descriptive Quality Improvement Analysis.”</span> <em>Irish Medical Journal</em> 119 (October): 186.
+</div>
+<div id="ref-Heaney2026d" class="csl-entry" role="listitem">
+Heaney, Andrea, Eugene Hickey, Emma Murphy, and Esther Purcell. 2026b. <span>“Examining Gender and Sex Bias in Women’s Health and Its Implication for AI Healthcare Systems.”</span> <em>Irish Medical Journal</em> 119 (October): 186. <a href="https://imj.ie/index.php/imj/article/view/429/425">https://imj.ie/index.php/imj/article/view/429/425</a>.
+</div>
+<div id="ref-Heaney2026f" class="csl-entry" role="listitem">
+Heaney, Andrea, Eugene Hickey, Emma Murphy, and Esther Purcell. 2026c. <span>“Optimising Electronic Test Ordering Through Clinical Details: A Descriptive Test Association Analysis.”</span> <em>Irish Medical Journal</em> 116 (October): 186.
+</div>
+<div id="ref-Heaney2025a" class="csl-entry" role="listitem">
+Heaney, Andrea, Emma Murphy, and Eugene Hickey. 2025. <span>“Bias in&nbsp;Context: Clinicians’ Perceptions of&nbsp;Women’s Healthcare.”</span> In <em>Pervasive Computing Technologies for Healthcare</em>, edited by Kondylakis Haridimos and Andreas Triantafyllidis. Springer Nature Switzerland. https://doi.org/<a href="https://doi.org/10.1007/978-3-031-85572-6_11">https://doi.org/10.1007/978-3-031-85572-6_11</a>.
+</div>
+<div id="ref-Heaney2026a" class="csl-entry" role="listitem">
+Heaney, Andrea, Emma Murphy, and Eugene Hickey. 2026. <span>“From Clinic to&nbsp;Code: Using Clinician Insights to&nbsp;Develop a&nbsp;Framework for&nbsp;Fair and&nbsp;Representative Datasets in&nbsp;Women’s Health AI.”</span> <em>Artificial Intelligence in Healthcare. AIiH</em>, 100–114. <a href="https://doi.org/10.1007/978-3-032-00656-1_8">https://doi.org/10.1007/978-3-032-00656-1_8</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -214,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/Andy1C1H\.github\.io\/Heaney_et_al\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
