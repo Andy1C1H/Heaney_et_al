@@ -2,7 +2,7 @@
 title: "Checklist for Equitable Data Selection for Women's Healthcare"
 ---
 There are a number of elements that impact women's health, yet data scientists and model developers are not always aware of these elements when doing research.
-The following checklist aims to explain dataset elements which impact women's health and is based on clinicians perceptions of women's health [@Heaney2025]. The method of translation is outlined in @Heaney2026.
+The following checklist aims to explain dataset elements which impact women's health and is based on clinicians perceptions of women's health [@Heaney2025a]. The method of translation is outlined in @Heaney2026a.
 
 If you have any feedback on this checklist I would love to hear it [Feedback Form](https://forms.cloud.microsoft/e/DVjGxw2eRD)
 
